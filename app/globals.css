@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}
+
+/* subtle divider */
+.border-subtle {
+  @apply border border-neutral-200;
+}
+
+/* soft card */
+.card {
+  @apply rounded-3xl bg-white border-subtle shadow-sm;
+}
+
+/* link style */
+.link {
+  @apply text-neutral-800 underline-offset-4 hover:underline;
+}
