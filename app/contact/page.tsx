@@ -16,18 +16,19 @@ export default function ContactPage() {
           <div className="mt-6 space-y-2 text-sm text-neutral-700">
             <p>
               Email:{" "}
-              <Link href="mailto:your.email@example.com" className="link">
-                your.email@example.com
+              <Link href="mailto:replytonikitsharma@gmail.com" className="link">
+                replytonikitsharma@gmail.com
               </Link>
             </p>
             <p>
               LinkedIn:{" "}
               <Link
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/nikit-s-3685392a/"
                 target="_blank"
+				rel="noopener noreferrer"
                 className="link"
               >
-                View profile
+                linkedin.com/in/nikit-s-3685392a
               </Link>
             </p>
             <p>

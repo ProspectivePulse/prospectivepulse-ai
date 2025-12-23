@@ -1,3 +1,4 @@
+import { Bot } from "lucide-react";
 import Link from "next/link";
 import { Shell } from "@/components/shell";
 
@@ -77,8 +78,14 @@ export default function HomePage() {
             </div>
           </div>
           <div className="flex-1">
-            <div className="aspect-[4/3] w-full rounded-3xl bg-neutral-100" />
-          </div>
+			  <div className="aspect-[4/3] w-full rounded-3xl bg-neutral-100 flex items-center justify-center">
+				<Bot
+				  className="h-24 w-24 text-neutral-500"
+				  strokeWidth={1.25}
+    />
+  </div>
+</div>
+
         </div>
       </section>
     </Shell>
