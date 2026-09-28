@@ -88,8 +88,9 @@ export default function PortfolioPage() {
               Automated essay scoring — deep learning
             </h2>
             <p className="mt-2 text-xs text-neutral-600">
-              Neural model that classifies/ranks student essays into performance bands using
-              bidirectional LSTMs and an ensemble with gradient boosting.
+              Fine-tuned DeBERTa-v3 and Longformer transformer models for long-form essay scoring, combining
+			  their predictions with XGBoost in a stacked ensemble. Built the training and evaluation pipeline 
+			  in TensorFlow/Keras and exposed the final model through a FastAPI inference service.
             </p>
             <p className="mt-2 text-[11px] uppercase tracking-wide text-neutral-500">
               NLP · Deep Learning
